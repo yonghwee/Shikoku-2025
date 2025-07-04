@@ -26,8 +26,7 @@ body {
   position: relative;
   text-align: center;
   white-space: normal;
-  min-width: 120px;
-  max-width: 180px;
+  width: 150px;
 }
 
 .trip::after {
@@ -42,6 +41,7 @@ body {
   border-right: 4px solid transparent;
 }
 
+/*
 .trip0 {
   background-color: #5f88ef;
 }
@@ -90,3 +90,47 @@ body {
 .trip6::after {
   border-top: 8px solid #dd33dd;
 }
+*/
+
+.trip0 { background-color: #e6194b; }
+.trip0::after { border-top: 8px solid #e6194b; }
+.trip1 { background-color: #3cb44b; }
+.trip1::after { border-top: 8px solid #3cb44b; }
+.trip2 { background-color: #dde119; }
+.trip2::after { border-top: 8px solid #dde119; }
+.trip3 { background-color: #4363d8; }
+.trip3::after { border-top: 8px solid #4363d8; }
+.trip4 { background-color: #f58231; }
+.trip4::after { border-top: 8px solid #f58231; }
+.trip5 { background-color: #911eb4; }
+.trip5::after { border-top: 8px solid #911eb4; }
+.trip6 { background-color: #46d0d0; }
+.trip6::after { border-top: 8px solid #46d0d0; }
+.trip7 { background-color: #f032e6; }
+.trip7::after { border-top: 8px solid #f032e6; }
+.trip8 { background-color: #bcd60c; }
+.trip8::after { border-top: 8px solid #bcd60c; }
+.trip9 { background-color: #f8bcbc; }
+.trip9::after { border-top: 8px solid #d8bcbc; }
+.trip10 { background-color: #008080; }
+.trip10::after { border-top: 8px solid #008080; }
+.trip11 { background-color: #e6beff; }
+.trip11::after { border-top: 8px solid #e6beff; }
+.trip12 { background-color: #9a6324; }
+.trip12::after { border-top: 8px solid #9a6324; }
+.trip13 { background-color: #ff0ac8; }
+.trip13::after { border-top: 8px solid #ff0ac8; }
+.trip14 { background-color: #800000; }
+.trip14::after { border-top: 8px solid #800000; }
+.trip15 { background-color: #66ddc3; }
+.trip15::after { border-top: 8px solid #66ddc3; }
+.trip16 { background-color: #808000; }
+.trip16::after { border-top: 8px solid #808000; }
+.trip17 { background-color: #aa86b1; }
+.trip17::after { border-top: 8px solid #aa86b1; }
+.trip18 { background-color: #000075; }
+.trip18::after { border-top: 8px solid #000075; }
+.trip19 { background-color: #808080; }
+.trip19::after { border-top: 8px solid #808080; }
+.trip20 { background-color: #000000; }
+.trip20::after { border-top: 8px solid #000000; }

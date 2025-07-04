@@ -11,7 +11,8 @@ async function InitMap() {
     mapId: '9825eb8ec8253a31'
   });
 
-  const featureStyleColors = ['#5f88ef', '#ee6399', '#aaaa00', '#198e8e', '#dd0000', '#6e55bb', '#dd33dd']
+  //const featureStyleColors = ['#5f88ef', '#ee6399', '#aaaa00', '#198e8e', '#dd0000', '#6e55bb', '#dd33dd']
+  const featureStyleColors = ['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#000000'];
   
   for (let i = 0; i < Trip.length; i++) {
     if (Trip[i].hide) { continue; }
@@ -22,7 +23,7 @@ async function InitMap() {
     const TripDay = document.createElement("div");
     let dt = new Date(TripStartDate.toDateString());
     dt.setDate(dt.getDate() + Trip[i].day - 1);
-    TripDay.textContent = ['Day', Trip[i].day, dt.toLocaleDateString()].join(' ');
+    TripDay.textContent = ['Day', Trip[i].day, ['(', dt.toLocaleDateString(), ')'].join('')].join(' ');
     TripMarker.appendChild(TripDay);
 
     const TripDetails = document.createElement("div");
