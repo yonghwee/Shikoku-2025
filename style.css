@@ -1,0 +1,92 @@
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+}
+
+#map {
+  flex-basis: 0;
+  flex-grow: 4;
+  height: 100%;
+}
+
+.trip {
+  border-radius: 4px;
+  border: solid 1px #888888;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 5px 5px;
+  position: relative;
+  text-align: center;
+  white-space: normal;
+  min-width: 120px;
+  max-width: 180px;
+}
+
+.trip::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.trip0 {
+  background-color: #5f88ef;
+}
+.trip0::after {
+  border-top: 8px solid #5f88ef;
+}
+
+.trip1 {
+  background-color: #ee6399;
+}
+.trip1::after {
+  border-top: 8px solid #ee6399;
+}
+
+.trip2 {
+  background-color: #aaaa00;
+}
+.trip2::after {
+  border-top: 8px solid #aaaa00;
+}
+
+.trip3 {
+  background-color: #198e8e;
+}
+.trip3::after {
+  border-top: 8px solid #198e8e;
+}
+
+.trip4 {
+  background-color: #dd0000;
+}
+.trip4::after {
+  border-top: 8px solid #dd0000;
+}
+
+.trip5 {
+  background-color: #6e55bb;
+}
+.trip5::after {
+  border-top: 8px solid #6e55bb;
+}
+
+.trip6 {
+  background-color: #dd33dd;
+}
+.trip6::after {
+  border-top: 8px solid #dd33dd;
+}
